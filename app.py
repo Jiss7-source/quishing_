@@ -1,7 +1,7 @@
 import os
 from modules.qr_extractor import extract_url_from_qr
-from modules.url_analyzer import classify_url
-from modules.ml_model import predict_url
+from modules.feature_extractor import classify_url
+from modules.train_model import predict_url
 from urllib.parse import urlparse
 
 # Folder containing QR images
